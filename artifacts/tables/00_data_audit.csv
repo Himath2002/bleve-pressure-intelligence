@@ -1,0 +1,18 @@
+item,value
+train_rows,10050
+test_rows,3203
+train_columns,25
+test_columns,24
+target_present_in_train,True
+target_present_in_test,False
+duplicate_train_rows,50
+duplicate_test_rows,0
+missing_target_rows,10
+non_positive_target_rows,0
+target_min,0.016098388
+target_max,9.1704769
+target_median,0.206345805
+tank_failure_pressure_min,4.92
+tank_failure_pressure_max,4995.61640633231
+tank_failure_pressure_missing_rows,7
+status_unique_values,"Saperheated, Subcoled, Subcool, Subcooled, Superheat, Superheated, subcooled, superheated"

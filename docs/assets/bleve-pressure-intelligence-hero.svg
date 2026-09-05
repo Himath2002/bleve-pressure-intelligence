@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">BLEVE Pressure Intelligence</title>
+  <desc id="desc">A dark technical overview showing the physics-guided machine-learning pipeline and recorded validation evidence.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.62" stop-color="#071229"/>
+      <stop offset="1" stop-color="#0a1a32"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.34" r="0.6">
+      <stop offset="0" stop-color="#2f8fff" stop-opacity="0.34"/>
+      <stop offset="0.5" stop-color="#184d9b" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#050816" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58d6ff"/>
+      <stop offset="1" stop-color="#6078ff"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" fill="none" stroke="#79a9de" stroke-opacity="0.065"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="720" rx="30" fill="url(#bg)"/>
+  <rect width="1600" height="720" rx="30" fill="url(#grid)"/>
+  <rect width="1600" height="720" rx="30" fill="url(#glow)"/>
+  <path d="M48 48H1552" stroke="#6edcff" stroke-opacity="0.24"/>
+  <path d="M48 672H1552" stroke="#6edcff" stroke-opacity="0.12"/>
+
+  <g transform="translate(70 74)">
+    <rect width="236" height="34" rx="17" fill="#102849" stroke="#53d2ff" stroke-opacity="0.4"/>
+    <circle cx="18" cy="17" r="5" fill="#63e1ff" filter="url(#softGlow)"/>
+    <text x="34" y="22" fill="#bceeff" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.6">PHYSICS-GUIDED ML</text>
+
+    <text x="0" y="126" fill="#f4f8ff" font-family="Inter,Arial,sans-serif" font-size="76" font-weight="780" letter-spacing="-3">BLEVE PRESSURE</text>
+    <text x="0" y="205" fill="none" stroke="#79bfff" stroke-opacity="0.92" stroke-width="1.5" font-family="Inter,Arial,sans-serif" font-size="76" font-weight="780" letter-spacing="-3">INTELLIGENCE</text>
+    <text x="2" y="255" fill="#9eb0c9" font-family="Inter,Arial,sans-serif" font-size="21">Peak blast-pressure estimation across simulated industrial scenarios</text>
+
+    <g transform="translate(0 312)">
+      <rect width="790" height="94" rx="18" fill="#081226" stroke="#7bb8ff" stroke-opacity="0.18"/>
+      <text x="24" y="30" fill="#61d9ff" font-family="IBM Plex Mono,monospace" font-size="11" font-weight="700" letter-spacing="1.4">SIGNAL PATH</text>
+      <g fill="#dfe9f8" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650">
+        <text x="24" y="65">Scenario data</text>
+        <text x="217" y="65">Physics features</text>
+        <text x="432" y="65">Ensemble</text>
+        <text x="604" y="65">Validated output</text>
+      </g>
+      <g stroke="url(#accent)" stroke-width="2" fill="none">
+        <path d="M146 59H193"/>
+        <path d="M193 59l-8-6m8 6l-8 6"/>
+        <path d="M359 59H407"/>
+        <path d="M407 59l-8-6m8 6l-8 6"/>
+        <path d="M517 59H579"/>
+        <path d="M579 59l-8-6m8 6l-8 6"/>
+      </g>
+    </g>
+
+    <g transform="translate(0 438)">
+      <text y="20" fill="#71839d" font-family="IBM Plex Mono,monospace" font-size="11" font-weight="700" letter-spacing="1.4">ENGINEERING FOCUS</text>
+      <g transform="translate(0 42)" fill="#aebbd0" font-family="Inter,Arial,sans-serif" font-size="14">
+        <rect width="180" height="38" rx="19" fill="#0c1b34" stroke="#76bfff" stroke-opacity="0.22"/>
+        <text x="18" y="24">Sensor geometry</text>
+        <rect x="194" width="194" height="38" rx="19" fill="#0c1b34" stroke="#76bfff" stroke-opacity="0.22"/>
+        <text x="212" y="24">Thermodynamics</text>
+        <rect x="402" width="188" height="38" rx="19" fill="#0c1b34" stroke="#76bfff" stroke-opacity="0.22"/>
+        <text x="420" y="24">Obstacle effects</text>
+        <rect x="604" width="186" height="38" rx="19" fill="#0c1b34" stroke="#76bfff" stroke-opacity="0.22"/>
+        <text x="622" y="24">Export integrity</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(1010 92)">
+    <circle cx="232" cy="218" r="194" fill="#07152c" stroke="#6edcff" stroke-opacity="0.18"/>
+    <circle cx="232" cy="218" r="147" fill="none" stroke="#58d6ff" stroke-opacity="0.16" stroke-width="22"/>
+    <circle cx="232" cy="218" r="106" fill="none" stroke="#6d7fff" stroke-opacity="0.22" stroke-width="2"/>
+    <circle cx="232" cy="218" r="58" fill="#102b50" stroke="#68ddff" stroke-opacity="0.7"/>
+    <path d="M232 160v116M174 218h116" stroke="#72ddff" stroke-opacity="0.38"/>
+    <path d="M68 218c48-72 102-109 164-109s116 37 164 109c-48 72-102 109-164 109S116 290 68 218Z" fill="none" stroke="#6edcff" stroke-opacity="0.2"/>
+    <path d="M3 218c65-116 141-174 229-174s164 58 229 174c-65 116-141 174-229 174S68 334 3 218Z" fill="none" stroke="#718dff" stroke-opacity="0.16"/>
+    <circle cx="232" cy="218" r="6" fill="#75e5ff" filter="url(#softGlow)"/>
+
+    <g transform="translate(-18 438)">
+      <rect width="500" height="116" rx="20" fill="#081327" stroke="#74caff" stroke-opacity="0.24"/>
+      <g font-family="Inter,Arial,sans-serif">
+        <text x="24" y="29" fill="#6f82a0" font-size="11" font-weight="700" letter-spacing="1.2">RECORDED VALIDATION</text>
+        <text x="24" y="72" fill="#f1f7ff" font-size="31" font-weight="780">8.92%</text>
+        <text x="24" y="94" fill="#8fa2bd" font-size="12">out-of-fold MAPE</text>
+        <text x="191" y="72" fill="#f1f7ff" font-size="31" font-weight="780">0.975</text>
+        <text x="191" y="94" fill="#8fa2bd" font-size="12">out-of-fold R²</text>
+        <text x="352" y="72" fill="#f1f7ff" font-size="31" font-weight="780">16.23%</text>
+        <text x="352" y="94" fill="#8fa2bd" font-size="12">public holdout MAPE</text>
+      </g>
+    </g>
+  </g>
+
+  <text x="70" y="694" fill="#526783" font-family="IBM Plex Mono,monospace" font-size="10" letter-spacing="1.2">RESEARCH / SIMULATION / DECISION-SUPPORT — NOT A CERTIFIED SAFETY SYSTEM</text>
+</svg>

@@ -1,0 +1,2 @@
+file,rows,expected_rows,columns,has_nan,non_positive_predictions,numeric_prediction_min,numeric_prediction_mean,numeric_prediction_median,numeric_prediction_p95,numeric_prediction_p99,numeric_prediction_p995,numeric_prediction_max,row_count_ok
+artifacts/runs/latest/prediction.csv,3203,3203,"ID, Target Pressure (bar)",False,0,0.0221867209135194,0.3281140097035452,0.1919065733281162,1.089373049333962,1.991340056721304,2.725839043205568,5.317046220539602,True

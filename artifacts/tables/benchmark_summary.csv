@@ -1,0 +1,6 @@
+evidence_set,metric,value,interpretation
+Cross-validated training scenarios,MAPE,0.08919003550433355,Out-of-fold model-selection evidence
+Cross-validated training scenarios,R2,0.974766245427348,Out-of-fold explained variance
+Cross-validated training scenarios,RMSE_bar,0.0786040777886218,Out-of-fold root mean squared error
+Cross-validated training scenarios,MAE_bar,0.031075416245258523,Out-of-fold mean absolute error
+Public holdout split,MAPE,0.16233,External benchmark evidence from the recorded evaluation

@@ -1,0 +1,8 @@
+model_family,model,hyperparameters_reviewed,values_considered,selected_values,role_in_notebook
+Regularised Linear,Ridge,alpha,10.0,alpha = 10.0,Baseline comparison model
+Regularised Linear,ElasticNet,"alpha, l1_ratio, max_iter","alpha = 0.002, l1_ratio = 0.15, max_iter = 6000","alpha = 0.002, l1_ratio = 0.15, max_iter = 6000",Baseline comparison model
+Support Vector Regression,LinearSVR,"C, epsilon, max_iter","C = 1.0, epsilon = 0.02, max_iter = 5000","C = 1.0, epsilon = 0.02, max_iter = 5000",Comparison model
+Neural Network,MLPRegressor,"hidden_layer_sizes, alpha, learning_rate_init, random_state","(128, 64), (144, 72); alpha = 0.0035 to 0.0060; learning_rate_init = 0.0010 to 0.0012; several random seeds",MLP support averages based on B and D seed groups,Support model for final ensemble comparison
+Tree Ensemble,HistGradientBoostingRegressor,"loss, max_iter, learning_rate, max_leaf_nodes, max_depth, min_samples_leaf, l2_regularization, max_bins",learning_rate = 0.018 to 0.035; max_iter = 900 to 1600; max_leaf_nodes = 31 to 63; max_depth = 6 to 7; l2_regularization = 0.02 to 0.12,HGB model components selected by cross-validation and combined in HGB_MEAN_TOP3,Main tabular model component
+Ensemble,HGB and MLP blend,"HGB weight, MLP weight, raw average, log average",MLP weight = 0.18 to 0.28 with raw and log prediction averaging,HGB-dominant blend selected by validation evidence,Final ensemble base
+Residual Calibration,HuberRegressor,"epsilon, alpha, shrinkage, cap",epsilon = 1.20; alpha = 0.0001 and 0.0005; shrinkage = 0.45; cap = 0.005,"epsilon = 1.20, alpha = 0.0001, shrinkage = 0.45, cap = 0.005",Final residual calibration
