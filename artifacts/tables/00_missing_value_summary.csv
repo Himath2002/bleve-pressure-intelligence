@@ -1,0 +1,26 @@
+,train_missing,test_missing
+Liquid Critical Pressure (bar),30,0
+Liquid Critical Temperature (K),30,0
+Liquid Boiling Temperature (K),29,0
+Vapour Temperature (K),28,0
+Liquid Temperature (K),27,0
+BLEVE Height (m),10,0
+Target Pressure (bar),10,0
+Liquid Ratio (%),9,0
+Sensor Position z,9,0
+Tank Length (m),9,0
+Tank Width (m),9,0
+Vapour Height (m),9,0
+Obstacle Angle,8,0
+Obstacle Distance to BLEVE (m),8,0
+Sensor ID,8,0
+Sensor Position Side,8,0
+Sensor Position y,8,0
+Tank Height (m),8,0
+Obstacle Thickness (m),7,0
+Sensor Position x,7,0
+Status,7,0
+Tank Failure Pressure (bar),7,0
+Obstacle Height (m),6,0
+Obstacle Width (m),6,0
+ID,5,0

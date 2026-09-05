@@ -1,0 +1,3 @@
+cleaning_step,rows_affected,action_taken
+Invalid target removal,10,"Rows with missing, infinite, or non-positive target pressure were removed before modelling."
+Duplicate row removal,50,Exact duplicate training rows were removed after target cleaning to avoid repeated-record bias.

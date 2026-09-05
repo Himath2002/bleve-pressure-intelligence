@@ -1,0 +1,121 @@
+feature,abs_correlation_with_target,missing_values,unique_values
+FE_inv_sensor_distance_cu,0.4505381826473481,0,9822
+FE_sensor_id_center_distance,0.4496302006154892,0,14
+FE_inv_sensor_distance_sq,0.4396748870298182,0,9822
+FE_inv_sensor_distance,0.42037395102091807,0,9818
+FE_log_sensor_3d_distance,0.39444971378435206,0,9799
+FE_sensor_3d_distance_origin,0.3782097480597084,0,8978
+FE_vapour_volume_ratio_proxy,0.37552098809565315,0,8978
+FE_vapour_volume_proxy,0.3728269659517714,0,8286
+FE_sensor_3d_distance_bleve,0.3645083767468812,0,9823
+FE_sensor_distance_minus_obstacle_distance,0.35476851232838946,0,9908
+FE_log_pressure_x_vapour_volume,0.33581573612992993,0,9949
+FE_sensor_planar_distance,0.32082060200133133,0,3615
+FE_tank_volume_box,0.2859753244593286,0,8453
+FE_sensor_far_flag,0.28413170307862606,0,2
+FE_abs_sensor_x,0.280849206786324,0,306
+Sensor Position x,0.280849206786324,0,306
+FE_tank_surface_proxy,0.2762839285700773,0,8379
+Vapour Height (m),0.2722083400094845,0,65
+FE_log_pressure_x_volume,0.2601045621778751,0,9937
+FE_inv_sensor_to_obstacle_center,0.23328857141009363,0,7724
+FE_sensor_to_obstacle_center_distance,0.22678641906658986,0,8045
+FE_abs_sensor_y,0.22510276526026457,0,275
+FE_log_pressure_over_distance,0.21688122764033385,0,9989
+FE_sensor_height_minus_tank_midheight,0.2101174886794235,0,1496
+Obstacle Distance to BLEVE (m),0.20566663849534975,0,16
+Tank Height (m),0.19695988965397665,0,70
+Sensor Position z,0.1952511002850882,0,180
+FE_tank_surface_to_volume,0.19126835878360715,0,8609
+Sensor Position y,0.18948651044412593,0,415
+FE_sensor_vertical_offset,0.18169087486281021,0,1541
+FE_abs_sensor_z,0.17531002792115363,0,152
+FE_sensor_z_over_distance,0.17063493640451527,0,9852
+FE_sensor_height_minus_obstacle_midheight,0.16773015064234112,0,201
+Tank Length (m),0.1643305136848306,0,240
+FE_tank_footprint,0.16085322143673544,0,4301
+FE_sensor_above_obstacle_midheight_flag,0.15450379362689104,0,2
+FE_bleve_above_tank_midheight,0.15424053874439578,0,963
+FE_obstacle_area,0.1535029021470655,0,77
+FE_obstacle_projected_area_cos,0.15003043888884235,0,331
+FE_sensor_below_bleve_flag,0.1491208436484564,0,2
+FE_obstacle_shadow_ratio,0.1421969781019967,0,3991
+FE_sensor_abs_vertical_offset,0.14071071962732537,0,1203
+FE_bleve_height_ratio,0.14003622704560525,0,2797
+FE_liquid_ratio_raw,0.13884397412506555,0,81
+Liquid Ratio (%),0.13884397412506555,0,81
+FE_vapour_ratio_fraction,0.13884397412506555,0,81
+FE_liquid_ratio_percent_scale,0.13884397412506555,0,81
+FE_liquid_ratio_fraction,0.13884397412506555,0,81
+FE_liquid_height_ratio,0.1370915646996511,0,1953
+FE_vapour_height_ratio,0.13646780640389758,0,2021
+FE_obstacle_volume_proxy,0.12960619275319807,0,1281
+FE_liquid_volume_ratio_proxy,0.11964079940545126,0,8982
+Obstacle Height (m),0.11367813335070022,0,16
+FE_liquid_volume_proxy,0.11220351097515822,0,8980
+FE_obstacle_projected_area_sin,0.11113895243291079,0,317
+FE_critical_minus_liquid_temp,0.09696484212000846,40,6514
+FE_liquid_temp_to_critical,0.09514590318722049,40,7315
+FE_liquid_superheat_over_boiling,0.09407072383082155,40,6206
+FE_sensor_id_group9,0.08835220419050563,0,4
+FE_sensor_planar_over_height,0.08284472863058204,0,9917
+FE_obstacle_thickness_height_ratio,0.07496493375715899,0,766
+FE_sensor_id_mod9,0.07476469088071501,0,9
+FE_obstacle_height_over_sensor_z,0.0723867448628847,0,442
+FE_high_pressure_flag,0.06944704869044195,0,2
+Obstacle Width (m),0.06892320835842623,0,16
+Liquid Temperature (K),0.06473700010805798,20,6394
+FE_sensor_id_num,0.06454498015456069,0,27
+FE_tank_length_height_ratio,0.06323424367539882,0,4802
+BLEVE Height (m),0.06024021540998966,0,55
+FE_tank_height_width_ratio,0.060080302197143415,0,3393
+FE_thermal_gap_combined,0.059078061009334375,60,8763
+FE_log_failure_pressure,0.05777128079614335,0,3216
+FE_pressure_x_inv_distance_cu,0.05539922062377484,0,9989
+FE_log_failure_to_critical_pressure,0.053615862165661214,20,4602
+Tank Width (m),0.0513002864797364,0,70
+FE_obstacle_angle_abs_cos,0.050744694380972365,0,31
+FE_obstacle_angle_cos,0.050744694380972365,0,31
+FE_sensor_id_mod3,0.0503839045921774,0,3
+FE_pressure_x_vapour_volume,0.047923378655421324,0,9950
+Liquid Boiling Temperature (K),0.04507161547934642,20,2
+Liquid Critical Temperature (K),0.04506941416353011,20,2
+Liquid Critical Pressure (bar),0.04460201543958209,20,2
+FE_tank_length_width_ratio,0.043179212610922,0,4791
+FE_pressure_over_distance_sq,0.0414493194084217,0,9989
+FE_pressure_x_inv_distance_sq,0.041449319408421684,0,9989
+FE_obstacle_area_over_distance,0.03916950651775346,0,226
+FE_pressure_x_tank_volume,0.039156200699340525,0,9938
+FE_obstacle_volume_over_distance,0.03898422138719387,0,1648
+FE_shielding_strength_proxy,0.037010883314832765,0,364
+FE_obstacle_thickness_width_ratio,0.03520376847155271,0,814
+FE_vapour_minus_liquid_temp,0.03278405201692949,40,8624
+FE_negative_bleve_height_flag,0.0327785199680203,0,2
+FE_obstacle_width_height_ratio,0.032771466598998135,0,162
+FE_tank_aspect_max_min,0.03223143813887701,0,4310
+Obstacle Angle,0.03143465014091169,0,31
+FE_obstacle_angle_sin,0.029945814387248096,0,31
+FE_obstacle_angle_abs_sin,0.029945814387248096,0,31
+FE_pressure_x_tank_surface,0.02749421959285812,0,9937
+FE_pressure_over_sensor_to_obstacle,0.026128779924745407,0,9982
+FE_pressure_x_liquid_volume,0.02533404511912571,0,9951
+FE_obstacle_area_over_distance_sq,0.02461411237709797,0,290
+FE_pressure_over_distance,0.023066381859452124,0,9989
+FE_pressure_x_inv_distance,0.023066381859452124,0,9989
+Obstacle Thickness (m),0.015052393979826675,0,70
+FE_critical_minus_vapour_temp,0.01481219664791721,40,7968
+FE_vapour_temp_to_critical,0.014296693787663137,40,8515
+FE_sensor_xy_ratio,0.010903161697557128,0,3759
+FE_vapour_superheat_over_boiling,0.010243663012617123,40,7911
+FE_pressure_x_projected_obstacle_area,0.009406431709006971,0,7251
+FE_shielded_pressure_distance_proxy,0.009174870088018622,0,9989
+FE_obstacle_between_sensor_proxy,0.006798378759991237,0,2
+FE_pressure_x_temp_ratio,0.006736723862954228,40,9930
+FE_pressure_over_liquid_ratio,0.00474051580011238,0,7733
+FE_pressure_x_obstacle_cos,0.003779234068294533,0,7062
+FE_pressure_x_liquid_fraction,0.0033682017339026604,0,7607
+FE_pressure_x_liquid_ratio,0.0033682017339026604,0,7607
+FE_liquid_height_proxy,0.003350454211001585,0,366
+Vapour Temperature (K),0.0033189865821000313,20,7910
+Tank Failure Pressure (bar),0.0030653976550961627,0,3216
+FE_failure_to_critical_pressure,0.001871291992694398,20,4604

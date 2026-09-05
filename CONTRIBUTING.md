@@ -4,7 +4,7 @@ Contributions that improve reproducibility, test coverage, documentation, or
 responsible model evaluation are welcome.
 
 1. Create a focused branch from `main`.
-2. Install the development environment with `pip install -e ".[dev]"`.
+2. Install the development environment with `pip install ".[dev]"`.
 3. Run `python -m ruff check src tests scripts` and `python -m pytest`.
 4. Keep raw benchmark data, exported predictions, credentials, and local paths
    out of commits.
@@ -13,4 +13,3 @@ responsible model evaluation are welcome.
 
 Changes to feature semantics or evaluation logic should include a regression
 test and an explanation of their effect on the recorded model evidence.
-

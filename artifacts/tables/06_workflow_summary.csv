@@ -1,0 +1,7 @@
+section,summary
+Data preparation,"The training and test data are loaded, checked, cleaned, and prepared for modelling."
+Feature preparation,"The notebook creates geometry, ratio, pressure, temperature, obstacle, and sensor-position features that describe the BLEVE setting."
+Model comparison,Several model families are evaluated using cross-validation before selecting the final modelling approach.
+Model tuning,"The selected model family is tuned using cross-validation, including nearby HGB settings, MLP support settings, blend weights, and residual calibration settings."
+Evaluation,"Model performance is reported with MAPE, R2, RMSE, and MAE, together with fold-level validation evidence."
+Final prediction,"The final selected model is used to generate the prediction file, and the exported file is checked for row count, missing values, and valid positive predictions."

@@ -1,0 +1,26 @@
+column,type,unit,role,description
+ID,integer,,identifier,Unique scenario identifier excluded from model features
+Tank Failure Pressure (bar),number,bar,input,Pressure at which the simulated tank fails
+Liquid Ratio (%),number,fraction,input,Recorded liquid fill ratio; values at or below 1.5 are interpreted as fractions
+Tank Width (m),number,m,input,Simulated tank width
+Tank Length (m),number,m,input,Simulated tank length
+Tank Height (m),number,m,input,Simulated tank height
+BLEVE Height (m),number,m,input,Vertical location of the simulated explosion source
+Vapour Height (m),number,m,input,Height of the vapour region in the tank
+Vapour Temperature (K),number,K,input,Recorded vapour temperature
+Liquid Temperature (K),number,K,input,Recorded liquid temperature
+Obstacle Distance to BLEVE (m),number,m,input,Distance from explosion source to obstacle
+Obstacle Width (m),number,m,input,Obstacle width
+Obstacle Height (m),number,m,input,Obstacle height
+Obstacle Thickness (m),number,m,input,Obstacle thickness
+Obstacle Angle,number,degrees,input,Obstacle orientation angle
+Status,string,,input,Thermodynamic state label normalised during preprocessing
+Liquid Critical Pressure (bar),number,bar,input,Critical pressure of the simulated liquid
+Liquid Boiling Temperature (K),number,dataset-dependent,input,Boiling-temperature field; workflow checks the observed scale before conversion
+Liquid Critical Temperature (K),number,dataset-dependent,input,Critical-temperature field; workflow checks the observed scale before conversion
+Sensor ID,integer,,input,Identifier for the simulated sensor position
+Sensor Position Side,integer,,input,Encoded side of the sensor layout
+Sensor Position x,number,m,input,Sensor x-coordinate
+Sensor Position y,number,m,input,Sensor y-coordinate
+Sensor Position z,number,m,input,Sensor z-coordinate
+Target Pressure (bar),number,bar,target,Maximum simulated pressure to estimate
