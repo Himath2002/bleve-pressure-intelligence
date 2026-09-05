@@ -6,6 +6,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
+tmp/
 .ipynb_checkpoints/
 
 # The benchmark dataset was supplied without redistribution terms. Keep local
