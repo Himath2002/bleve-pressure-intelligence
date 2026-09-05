@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bleve-pressure-intelligence"
+version = "1.0.0"
+description = "Physics-guided machine-learning workflow for estimating peak BLEVE blast pressure."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Himath Ahangama" }]
+keywords = ["machine-learning", "regression", "bleve", "industrial-safety", "feature-engineering"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "joblib>=1.4,<2",
+  "matplotlib>=3.8,<4",
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<3",
+  "scikit-learn>=1.6,<2",
+  "threadpoolctl>=3.5,<4",
+]
+
+[project.optional-dependencies]
+notebook = [
+  "ipykernel>=6.29,<8",
+  "ipython>=8,<10",
+  "jupyterlab>=4.2,<5",
+]
+dev = [
+  "pytest>=8.3,<10",
+  "ruff>=0.11,<1",
+]
+
+[project.urls]
+Homepage = "https://github.com/Himath2002/bleve-pressure-intelligence"
+Repository = "https://github.com/Himath2002/bleve-pressure-intelligence"
+Issues = "https://github.com/Himath2002/bleve-pressure-intelligence/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bleve_pressure"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+

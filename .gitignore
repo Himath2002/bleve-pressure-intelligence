@@ -1,0 +1,19 @@
+.DS_Store
+.idea/
+.vscode/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# The benchmark dataset was supplied without redistribution terms. Keep local
+# copies available for reproducibility work, but never publish them.
+data/**/*.csv
+!data/schema.csv
+
+# Local executions and exported predictions are reproducible artifacts.
+artifacts/runs/
+prediction.csv
+notebooks/*.baseline.ipynb

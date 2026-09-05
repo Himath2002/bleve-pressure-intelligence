@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If this software supports your research, please cite it using this metadata."
+title: "BLEVE Pressure Intelligence"
+type: software
+authors:
+  - family-names: Ahangama
+    given-names: Himath
+repository-code: "https://github.com/Himath2002/bleve-pressure-intelligence"
+license: MIT
+version: 1.0.0
+date-released: 2026-09-05
+
