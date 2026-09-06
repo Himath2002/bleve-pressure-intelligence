@@ -2,8 +2,8 @@
 
 The modelling notebook expects two local files in this directory:
 
-- `train.csv` — scenario inputs plus `Target Pressure (bar)`.
-- `test.csv` — scenario inputs without the target column.
+- `train.csv` - scenario inputs plus `Target Pressure (bar)`.
+- `test.csv` - scenario inputs without the target column.
 
 The original benchmark data is not included because no redistribution terms
 were supplied with it. The repository therefore publishes the exact schema,
