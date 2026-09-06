@@ -95,6 +95,6 @@
     <text x="24" y="94" fill="#879ab4" font-size="13">OOF metrics guide selection; an external public split exposes the remaining generalisation gap.</text>
     <path d="M768 25V101" stroke="#7896c4" stroke-opacity="0.18"/>
     <text x="800" y="66" fill="#dfe9f7" font-size="17" font-weight="650">Responsible interpretation</text>
-    <text x="800" y="94" fill="#879ab4" font-size="13">Simulation output supports research—not live hazard monitoring or certified safety decisions.</text>
+    <text x="800" y="94" fill="#879ab4" font-size="13">Simulation output supports research - not live hazard monitoring or certified safety decisions.</text>
   </g>
 </svg>

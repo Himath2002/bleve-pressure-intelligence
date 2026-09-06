@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/bleve-pressure-intelligence-hero.svg" alt="BLEVE Pressure Intelligence — physics-guided machine learning for simulated peak blast-pressure estimation" width="100%" />
+  <img src="docs/assets/bleve-pressure-intelligence-hero.svg" alt="BLEVE Pressure Intelligence - physics-guided machine learning for simulated peak blast-pressure estimation" width="100%" />
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ cross-validated model comparison, a HistGradientBoosting + MLP ensemble, and
 bounded Huber residual calibration.
 
 > [!IMPORTANT]
-> This is a research and simulation system—not a live pressure monitor, a
+> This is a research and simulation system - not a live pressure monitor, a
 > certified engineering model, or a substitute for validated process-safety
 > analysis. Its predictions must not drive emergency, plant, or regulatory
 > decisions.
@@ -47,17 +47,17 @@ optimism remain.
   <img src="docs/assets/model-workflow.svg" alt="Six-stage BLEVE modelling workflow from scenario data to validated pressure export" width="100%" />
 </p>
 
-1. **Ingest** — load structured simulation scenarios and separate identifiers,
+1. **Ingest** - load structured simulation scenarios and separate identifiers,
    inputs, and target pressure.
-2. **Govern** — audit missingness, invalid targets, duplicates, range anomalies,
+2. **Govern** - audit missingness, invalid targets, duplicates, range anomalies,
    and inconsistent state labels before training.
-3. **Enrich** — construct interpretable tank, thermodynamic, obstacle, and
+3. **Enrich** - construct interpretable tank, thermodynamic, obstacle, and
    sensor-distance features without mutating the source records.
-4. **Compare** — evaluate distinct baselines and nonlinear model families under
+4. **Compare** - evaluate distinct baselines and nonlinear model families under
    a shared cross-validation protocol.
-5. **Calibrate** — blend complementary HGB and MLP signals, then apply a small,
+5. **Calibrate** - blend complementary HGB and MLP signals, then apply a small,
    bounded residual correction fitted out of fold.
-6. **Verify** — reject exports with missing identifiers, the wrong row count,
+6. **Verify** - reject exports with missing identifiers, the wrong row count,
    non-finite values, duplicates, or non-positive pressure estimates.
 
 ## Engineering decisions
@@ -65,8 +65,8 @@ optimism remain.
 ### Data quality before model complexity
 
 The pipeline does not silently discard every incomplete record. It removes only
-rows that cannot support supervised learning—a missing, non-finite, or
-non-positive target—and exact duplicates that could bias validation. Numeric
+rows that cannot support supervised learning - a missing, non-finite, or
+non-positive target - and exact duplicates that could bias validation. Numeric
 and categorical feature gaps are handled inside model pipelines, preventing
 preprocessing leakage across folds.
 
